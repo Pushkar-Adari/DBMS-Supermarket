@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #000000;
+}
+div{
+    color: #fff;
+}
+a{
+    position: relative;
+    text-decoration: none;
+    color: #fbfdf2;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+a:after{
+    content: "";
+    position: absolute;
+    background-color:#5334da;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+a:hover{
+    color: #fff;
+}
+a:hover:after{
+    width: 100%;
+}
+a.active{
+    color: #000000;
+}
+
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+    border-bottom: 2px solid #5334da;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    max-width: 100%;
+}
+
+nav .logo {
+    width: 160px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+#table-container {
+    width: 85%;
+    margin: 0 auto; /* Center the container horizontally */
+    overflow-x: auto; /* Add horizontal scroll if needed */
+  }
+table, td {
+    width: 1000px;
+    overflow: hidden;
+    border-collapse: collapse;
+    padding: 1rem;
+    background: #323232;
+    color: #fff;
+    margin: 25px auto;
+    font-size: 0.9em;
+    border-radius: 15px;
+    border-bottom: 2px solid #000;
+
+}
+
+th {
+    text-align: left;
+    padding: 1.1rem;
+    background-color: #1e115a;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+tr {
+    background-color: #1e115a;
+    font-size: 1.1em;
+}
+input {
+    padding: 5px;
+    border-radius: 5px;
+    width: 300px;
+    outline: none;
+    position: relative;
+}
+
+#MainBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Optional: To vertically center items */
+    padding-top: 20px;
+    padding-inline-start: 250px;
+    padding-inline-end: 250px;
+
+}
+
+#AddRecordButton {
+    margin-left: auto;
+    /* Pushes the button to the rightmost side */
+}
+.pagination {
+    text-align: center;
+    padding-inline-start: 250px;
+
+}
+.pagination a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 2px;
+    background-color: #5334da;
+    border: 2px solid #ddd;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.pagination a:hover {
+    background-color: #000000;
+}

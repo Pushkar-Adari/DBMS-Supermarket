@@ -1,0 +1,106 @@
+:root {
+    --text: #fbfdf2;
+    --background: #000000;
+    --primary: #1e115a;
+    --secondary: #380a30;
+    --accent: #5334da;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: var(--background);
+    width: 40%;
+    border-radius: 10px;
+    padding: 75px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    color: var(--text);
+}
+
+form {
+    
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: var(--text);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    color: var(--text);
+    background-color: var(--background);
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* Add these styles to your existing CSS */
+select#Category {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: var(--text); /* Text color */
+    background-color: var(--background); /* Background color */
+}
+
+/* Style for the dropdown arrow (optional) */
+select#Category::-ms-expand {
+    display: none;
+}
+
+select#Category option {
+    background-color: var(--background); /* Background color for options */
+    color: var(--text); /* Text color for options */
+}
+
+select#Supplier {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: var(--text); /* Text color */
+    background-color: var(--background); /* Background color */
+}
+
+/* Style for the dropdown arrow (optional) */
+select#Supplier::-ms-expand {
+    display: none;
+}
+
+select#Supplier option {
+    background-color: var(--background); /* Background color for options */
+    color: var(--text); /* Text color for options */
+}
+
+input[type="submit"] {
+    background-color: var(--accent);
+    color: var(--text);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: var(--secondary);
+}

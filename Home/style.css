@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #000000;
+}
+div{
+    color: #fff;
+}
+a{
+    position: relative;
+    text-decoration: none;
+    color: #fbfdf2;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+a:after{
+    content: "";
+    position: absolute;
+    background-color:#5334da;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.nav a.active {
+    color: #fff; /* Change the color for the active tab */
+}
+
+.nav a.active:after {
+    width: 100%; /* Highlight the active tab */
+}
+a:hover{
+    color: #fff;
+}
+a:hover:after{
+    width: 100%;
+}
+a.active{
+    color: #000000;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column; /* Added to align elements vertically */
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    background: #000000;
+    color: #fff;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 30px; /* Added margin-top for spacing */
+}
+
+.wrapper .input-box {
+    display: flex; /* Added to align input box and icon horizontally */
+    align-items: center;
+    
+    position: relative;
+    width: 100%;
+    border: 2px solid #5334da;
+    margin: 10px 0; /* Adjusted margin for spacing */
+    padding: 10px; /* Added padding for spacing */
+    border-radius: 40px;
+}
+
+.input-box input {
+    flex: 1; /* Added to make the input box grow to fill available space */
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 100px 10px 10px; /* Adjusted padding for spacing */
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+input[type="checkbox"] {
+    margin: 0;
+}
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background:#fff;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    
+}
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+    border-bottom: 2px solid #5334da}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Adjusted alignment of logo and links */
+    align-items: center;
+    padding: 20px 8%;
+    max-width: 100%; /* Ensure the nav bar doesn't overflow */
+}
+
+nav .logo {
+    width: 160px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+table,td{
+    overflow: hidden;
+    border-collapse: collapse;
+    padding: 1rem;
+    background: #323232;
+    color: #fff;
+    margin: 25px auto;
+    font-size: 0.9em;
+    border-radius: 15px;
+
+}
+th {
+    text-align: center;
+    padding: 1.1rem; /* Increase the padding for row headings */
+    background-color: #1e115a; /* You can set the background color for headings here */
+    font-size: 1.1em;
+    color: #fff;
+}
+tr{
+    background-color: #1e115a;
+    font-size: 1.1em;
+    border-bottom: 1px solid #fff;
+
+}
+h1{
+    font-size: small;
+    text-align: center;
+    color: #fff;
+    background: #000000;
+}
+h3{
+    font-size: 0.8em;
+    text-align: right;
+    color: #fff;
+
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+    width: 300px;
+    margin-bottom: 25px;
+    outline: none;
+  }
+#SearchBar{
+    position: relative;
+    top: 25px;
+    left: 5%;
+}
+
+#y {
+    position: absolute;
+    top: 630px;
+    right: 825px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #5334da;
+    color: #fff;
+  }
+h2{
+    padding: 1em;
+    padding-left: 100px;
+    color: #fff;
+}
+#x{
+    position: absolute;
+    left: 825px;
+    right: 100px;
+    top: 630px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #5334da;
+    color: #fff;
+}
+

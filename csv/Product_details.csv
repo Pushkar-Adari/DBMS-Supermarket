@@ -1,0 +1,51 @@
+Pid,Pname,Ptype,Pcprice,Psupp,Pmprice,Pquant,Pprofit
+1179,Coca-Cola ,Grocery,266,205,868,71,602
+1221,Campbell's Soup ,Grocery,310,203,885,66,575
+1568,Kellogg's Corn Flakes ,Grocery,351,206,815,67,464
+1428,Nutella ,Grocery,174,207,560,94,386
+1773,Heinz Ketchup ,Grocery,490,202,993,56,503
+1758,Dove Soap ,Personal Care,106,204,634,87,528
+1059,Colgate Toothpaste,Personal Care,242,202,879,46,637
+1948,Shampoo ,Personal Care,143,205,673,72,530
+1743,Crest Mouthwash,Personal Care,222,203,819,80,597
+1642,Nivea Lotion ,Personal Care,474,207,586,69,112
+1500,Clorox Bleach ,Cleaning supplies,106,203,549,88,443
+1872,Lysol Disinfectant Spray ,Cleaning supplies,461,204,846,90,385
+1735,Paper Towels ,Cleaning supplies,379,202,732,51,353
+1384,Swiffer Mop ,Cleaning supplies,150,205,593,59,443
+1905,Windex Glass Cleaner,Cleaning supplies,435,202,762,82,327
+1229,Lay's Potato Chips ,Snacks,426,207,536,95,110
+1803,Oreo Cookies ,Snacks,431,207,903,61,472
+1876,Nutella ,Snacks,231,204,686,65,455
+1247,Doritos ,Snacks,393,207,613,71,220
+1673,Snickers ,Snacks,237,201,811,66,574
+1517,Milk ,Dairy,337,205,928,58,591
+1540,Cheese ,Dairy,286,205,813,74,527
+1570,Yogurt,Dairy,407,205,902,70,495
+1466,Butter,Dairy,354,202,694,92,340
+1057,Eggs ,Dairy,470,206,632,62,162
+1777,Chicken ,Meat,130,206,564,84,434
+1840,Salmon ,Meat,143,205,903,96,760
+1421,Mutton,Meat,260,202,564,64,304
+1574,Shrimp ,Meat,478,206,902,86,424
+1000,Pork Chops ,Meat,491,206,883,43,392
+1420,Bread ,Bakery,304,202,521,61,217
+1691,Cakes ,Bakery,458,202,807,62,349
+1201,Croissants ,Bakery,379,201,705,56,326
+1324,Bagels ,Bakery,351,207,775,97,424
+1872,Donuts ,Bakery,478,207,920,96,442
+1565,Frozen Pizza ,Frozen foods,306,202,548,82,242
+1500,Ice Cream ,Frozen foods,337,207,681,44,344
+1782,Frozen Vegetables ,Frozen foods,420,201,670,47,250
+1376,Frozen Chicken Nuggets ,Frozen foods,403,202,917,40,514
+1607,Frozen French Fries ,Frozen foods,339,201,969,58,630
+1607,Pampers Diapers ,Baby and child care,373,205,991,95,618
+1432,Baby Food ,Baby and child care,241,205,940,92,699
+1353,Baby Wipes ,Baby and child care,298,203,631,45,333
+1731,Johnson's Baby Shampoo ,Baby and child care,404,203,974,42,570
+1610,Huggies Pull-Ups ,Baby and child care,370,205,865,51,495
+1387,Pedigree Dog Food ,Pet supplies,193,207,532,55,339
+1881,Cat Litter ,Pet supplies,370,204,990,49,620
+1172,Pet Toys,Pet supplies,258,203,930,42,672
+1750,Whiskas Cat Food ,Pet supplies,300,205,707,64,407
+1654,Bird Cage,Pet supplies,191,202,625,65,434

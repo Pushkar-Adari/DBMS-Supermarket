@@ -1,0 +1,38 @@
+.topnav {
+    text-decoration: none;
+    background-color: #000000;
+    overflow: hidden;
+    border-bottom: 2px solid #5334da}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* Adjusted alignment of logo and links */
+    align-items: center;
+    padding: 20px 8%;
+    max-width: 100%; /* Ensure the nav bar doesn't overflow */
+}
+
+nav .logo {
+    width: 160px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
